@@ -1,0 +1,417 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- Navbar header section -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading">Welcome!</h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Home </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#portfolio"> Portfolio </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> Services </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading">Hello, I'm</h3>
+          <h1 class="my-heading">M.P.Goutam</h1>
+          <h4 class="sub-heading">
+            AI & DS Student Specializing in Cloud Solutions and Data Insights
+          </h4>
+        </div>
+        <div class="intro-buttons">
+          <a href="mailto:goutamhegde2000g@gmail.com" class="btn common-btn"
+            >Hire Me</a
+          >
+          <a
+            href="https://drive.google.com/drive/folders/1ZXHFR_uOcqihhmokJIqfuWnXhcKFvfX0?usp=sharing"
+            class="btn ghost-btn"
+            target="_blank"
+            >Get Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
+        <h1 class="my-heading text-center">Featured Portfolio</h1>
+      </div>
+      <div class="portfolio-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/dataAnalytics.avif"
+                  alt="Data Analytics Visualization"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Data Analytics</h3>
+              <p class="small-para blue-text">
+                Data Analysis and Visualization
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/cloudComputing.avif"
+                  alt="Cloud Computing Infrastructure"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Cloud Computing</h3>
+              <p class="small-para blue-text">
+                Cloud Deployment and Management
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/webDevelopment.avif"
+                  alt="Web Development Project"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Web Development</h3>
+              <p class="small-para blue-text">Full-Stack Development</p>
+            </div>
+          </div>
+        </div>
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/contentWriting.avif"
+                  alt="Content Writing Sample"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Content Writing</h3>
+              <p class="small-para blue-text">Writing</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/dataVisualization.avif"
+                  alt="Data Visualization Dashboard"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Data Visualization</h3>
+              <p class="small-para blue-text">Interactive Dashboards</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="./Images/machineLearning.avif"
+                  alt="Machine Learning Model"
+                />
+              </div>
+              <h3 class="greet-heading blue-text">Machine Learning</h3>
+              <p class="small-para blue-text">Algorithms and Models</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1 class="my-heading">About Me</h1>
+        <p class="lead-para">
+          I am an ambitious engineering student currently pursuing a Bachelor of
+          Engineering in AI and Data Science, with a keen interest in data
+          analytics and cloud computing. My technical expertise includes
+          proficiency in Python, C#, and React JS, supported by certifications
+          in AWS, Microsoft Azure Fundamentals, and Machine Learning. I am
+          currently advancing my data analytics skills through the Trainity's
+          Project-Based Trainee Program, aiming to apply my knowledge in
+          real-world scenarios.
+        </p>
+        <p>
+          Driven by a passion for innovation, I have successfully led projects
+          like an Agricultural Pesticide Spraying Robot and a Python-based Air
+          Canvas, showcasing my ability to manage teams and deliver high-quality
+          results. My goal is to leverage my skills in data analytics and cloud
+          computing to contribute effectively in a professional setting,
+          continuously expanding my expertise and driving impactful solutions in
+          the tech industry.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="./Images/heroImg2.avif" alt="About Image" />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-heading">
+        <h1 class="my-heading text-center">My Services</h1>
+      </div>
+      <div class="services-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Data Analytics</h3>
+              <p class="small-para">
+                I offer comprehensive data analytics services, helping you turn
+                raw data into actionable insights. My expertise includes data
+                cleaning, exploratory data analysis, and advanced statistical
+                modeling to support data-driven decision-making in your
+                organization.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Cloud Computing</h3>
+              <p class="small-para">
+                I provide cloud computing solutions that help you leverage the
+                power of the cloud for scalability, security, and
+                cost-effectiveness. My services include cloud deployment,
+                management, and optimization on platforms like AWS and Azure.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Web Development</h3>
+              <p class="small-para">
+                I specialize in full-stack web development, delivering
+                responsive and high-performing websites. Whether you need a
+                custom application or a robust e-commerce platform, I build
+                solutions that meet your business needs using the latest
+                technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-pen-fancy"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Content Writing</h3>
+              <p class="small-para">
+                I create compelling and SEO-friendly content that effectively
+                communicates your brand's message. My writing services include
+                blog posts, articles, website content, and more, tailored to
+                engage your audience and drive results.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-chart-pie"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Data Visualization</h3>
+              <p class="small-para">
+                I specialize in creating interactive and insightful data
+                visualizations that make complex data easy to understand. Using
+                tools like Tableau and Power BI, I build dashboards and reports
+                that help you monitor key metrics and make informed decisions.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Machine Learning</h3>
+              <p class="small-para">
+                I offer machine learning services that enable predictive
+                analytics and intelligent automation. From model development to
+                deployment, I help you harness the power of AI to solve complex
+                problems and enhance your business operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1 class="greet-heading">Get In Touch</h1>
+          <form class="contact-form" action="/submit" method="post">
+            <input
+              class="form-controls"
+              type="text"
+              placeholder="Your Name"
+              name="name"
+              required
+              minlength="2"
+              maxlength="50"
+            />
+            <input
+              class="form-controls"
+              type="email"
+              placeholder="Your Email"
+              name="email"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+            <input
+              class="form-controls"
+              type="tel"
+              placeholder="Your Phone"
+              name="phone"
+              required
+              pattern="[0-9]{10}"
+              maxlength="15"
+            />
+            <textarea
+              class="form-controls"
+              placeholder="Write your message"
+              name="message"
+              required
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit" class="submit-button">Send</button>
+          </form>
+        </div>
+        <div class="contact-details">
+          <h1 class="greet-heading">My Contact Details</h1>
+          <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">goutamhegde2000g@gmail.com</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">PHONE</h5>
+            <p class="contact-text">+91 9448254259</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">WhatsApp</h5>
+            <p class="contact-text">+91 9448254259</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">Valachil</p>
+            <p>Mangalore</p>
+            <p>Karnataka, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>Copyright © 2024 All rights reserved</h4>
+        <div class="social-links">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://github.com/goutamhegde002"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://yourrandomscribbler.wordpress.com/"
+                >
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://www.instagram.com/hegde_goutam_002?igsh=ZWwza2piZ2NoeThz"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://www.linkedin.com/in/m-p-goutam-a9b467202/"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
